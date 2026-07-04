@@ -6,7 +6,7 @@ import os
 
 FILE_NAME = "expenses.csv"
 
-# ---------------- LOAD DATA ----------------
+# ----------------LOAD DATA ---------------
 def load_data():
     if not os.path.exists(FILE_NAME):
         return pd.DataFrame(columns=["Date", "Category", "Amount"])
