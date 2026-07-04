@@ -99,7 +99,7 @@ This Year      : ₹{year_sum:.2f}
         output.insert(tk.END, "You spent SAME as last month ➖")
 
 
-# ---------------- UI DESIGN ----------------
+# --------------- UI DESIGN ---------------
 root = tk.Tk()
 root.title("Personal Expense Tracker")
 root.geometry("900x550")
