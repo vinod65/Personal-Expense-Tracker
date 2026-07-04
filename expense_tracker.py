@@ -17,7 +17,7 @@ def load_data():
     return df
 
 
-# ---------------- ADD EXPENSE ----------------
+# --------------- ADD EXPENSE ---------------
 def add_expense():
     date = date_entry.get().strip()
     category = category_entry.get().strip()
